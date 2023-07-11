@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 18">
+  <symbol id="hamburger-icon--even" viewBox="0 0 24 18">
+    <path d="M2 9h20v2H2V9zm0-6h20v2H2V3zm0 12h20v-2H2v2z" />
+  </symbol>
+  <symbol id="hamburger-icon--odd" viewBox="0 0 24 18">
+    <path d="M1 4h22v2H1V4zm0 6h22v2H1v-2zm0 6h22v2H1v-2z" />
+  </symbol>
+  <!-- Add any other symbols or icons as needed -->
+</svg>
