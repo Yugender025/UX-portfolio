@@ -4537,7 +4537,7 @@
         var t = {
             container: e
         };
-        return e.getAttribute("data-config-url") && (t.url = e.getAttribute("data-config-url")),
+        return e.getAttribute("") && (t.url = e.getAttribute("")),
         e.getAttribute("data-config-playback-speed") && (t.playbackSpeed = e.getAttribute("data-config-playback-speed")),
         e.getAttribute("data-config-filter") && (t.filter = e.getAttribute("data-config-filter")),
         e.getAttribute("data-config-filter-strength") && (t.filterStrength = e.getAttribute("data-config-filter-strength")),
