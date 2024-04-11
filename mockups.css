@@ -1,0 +1,91 @@
+h1 {
+    text-align: center;
+}
+
+.text-container {
+    margin-top: 5px;
+    /* Adjust margin as needed */
+    padding: 20px;
+    /* Adjust padding as needed */
+    background-color: #f0f0f0;
+    /* Background color for the text container */
+}
+
+.text-container h2 {
+    font-size: 24px;
+    /* Adjust font size for the heading */
+    margin-bottom: 10px;
+    /* Adjust margin as needed */
+}
+
+.text-container p {
+    font-size: 16px;
+    /* Adjust font size for the paragraph */
+    line-height: 1.5;
+    /* Adjust line height for readability */
+}
+
+.header-container {
+    margin-top: 2rem;
+}
+
+.carousel-container {
+    position: relative;
+    overflow: hidden;
+    height: 1100px;
+}
+
+.carousel-slide {
+    display: flex;
+}
+
+.carousel-slide img {
+    flex: 0 0 auto;
+    /* Prevent images from shrinking or growing */
+    width: 100%;
+    /* Each image occupies the full width of the container */
+    height: 800px;
+    /* Maintain aspect ratio */
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.pagination span {
+    width: 10px;
+    height: 10px;
+    background-color: #cdc1e8;
+    border-radius: 50%;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.pagination span.active {
+    background-color: #1c31a4;
+}
+
+/* Responsive layout */
+@media screen and (max-width: 768px) {
+    .carousel-slide img {
+        width: 80%;
+        /* Adjust the width as needed */
+    }
+
+    h1 {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .carousel-slide img {
+        width: 100%;
+        /* Adjust the width as needed */
+    }
+
+    h1 {
+        font-size: 15px;
+    }
+}
