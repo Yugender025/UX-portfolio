@@ -77,6 +77,22 @@ h1 {
     h1 {
         font-size: 12px;
     }
+    .header-container {
+        text-align: center;
+        /* Center align images on smaller screens */
+    }
+
+    .header-container figure {
+        flex-direction: column;
+        gap: 1rem;
+        align-items: center;
+    }
+
+    .header-container img {
+        width: 100%;
+        max-width: 500px;
+        /* Adjust as needed */
+    }
 }
 
 @media screen and (max-width: 480px) {
@@ -87,5 +103,9 @@ h1 {
 
     h1 {
         font-size: 15px;
+    }
+    .header-container img {
+        max-width: 100%;
+        /* Ensure images fill the container on smaller screens */
     }
 }
